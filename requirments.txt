@@ -1,0 +1,28 @@
+# os
+os
+
+# python3
+# sudo apt-get install python3-pip 
+# sudo pip3 install unicornhat
+
+# RPi.GPIO
+RPi.GPIO==0.7.0
+
+# speech recognition
+# IF IT IS NOT WORK, THEN USING pip3 install SpeechRecognition
+SpeechRecognition==3.8.1
+
+
+# sudo apt-get install portaudio19-dev -y
+pyaudio
+# request
+# json
+
+# tts
+mpg123
+# sudo apt-get install python-pygame
+
+# Sensor
+spidev==3.4
+Adafruit-DHT==1.4.0
+

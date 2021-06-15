@@ -4,10 +4,10 @@ import speech_recognition as sr
 import ast
 
 url = "https://kakaoi-newtone-openapi.kakao.com/v1/recognize"
-k_token= {'rest' : 'f086b91dd42878e96e93ebee3d0195fe'}
+rest_key = 'f086b91dd42878e96e93ebee3d0195fe'
 
 header = {"Content-Type" : "application/octet-stream",
-          "Authorization" : "KakaoAK " + k_token['rest']
+          "Authorization" : "KakaoAK " + rest_key
           }
 
 r = sr.Recognizer()
