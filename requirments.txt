@@ -24,5 +24,14 @@ mpg123
 
 # Sensor
 spidev==3.4
-Adafruit-DHT==1.4.0
+sudo pip3 install Adafruit_DHT
+
+# LCD
+# set 'Raspberry Pi Configuration' --> Enable I2C
+sudo apt-get install python-smbus
+sudo apt-get install python3-smbus
+i2cdetect -y 1
+git clone https://github.com/eleparts/RPi_I2C_LCD_driver
+
+# soil 
 

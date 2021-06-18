@@ -37,9 +37,9 @@ f.write(output)
 f.close()
 
 file = "/home/pi/AIPot/audio_test.wav"
-os.system('omxplayer -o local /home/pi/AIPot/audio_test.wav')
+os.system('cvlc --play-and-exit /home/pi/AIPot/audio_test.wav')
 # 파일 삭제
 
-# os.remove("/home/pi/AIPot/audio_test.wav")
+os.remove("/home/pi/AIPot/audio_test.wav")
 
 # print(err)
